@@ -389,8 +389,8 @@ private void Clear(){
             Save.setString(8,"Inactive");
             Save.executeUpdate();
             JOptionPane.showMessageDialog(this,role.getSelectedItem().toString()+"Successfully Added");
-                   LOGIN lf = new LOGIN();
-                    lf.setVisible(true);
+//                   LOGIN lf = new LOGIN();
+//                    lf.setVisible(true);
                     this.dispose();
             Con.close();
             Clear();
@@ -415,8 +415,8 @@ private void Clear(){
     }//GEN-LAST:event_roleActionPerformed
 
     private void createaccMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_createaccMouseClicked
-        LOGIN login= new LOGIN();
-        login.setVisible(true);
+//        LOGIN login= new LOGIN();
+//        login.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_createaccMouseClicked
 

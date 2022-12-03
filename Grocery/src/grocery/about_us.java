@@ -237,21 +237,21 @@ public class about_us extends javax.swing.JFrame {
 
     private void homeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homeMouseClicked
         // TODO add your handling code here:
-         Landing_Page lp= new Landing_Page();
-                lp.setVisible(true);
+//         Landing_Page lp= new Landing_Page();
+//                lp.setVisible(true);
                 this.dispose();
     }//GEN-LAST:event_homeMouseClicked
 
     private void teamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_teamMouseClicked
         // TODO add your handling code here:
-         Our_Team team= new Our_Team();
-                team.setVisible(true);
+//         Our_Team team= new Our_Team();
+//                team.setVisible(true);
                 this.dispose();
     }//GEN-LAST:event_teamMouseClicked
 
     private void loginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginMouseClicked
- LOGIN login= new LOGIN();
-                login.setVisible(true);
+// LOGIN login= new LOGIN();
+//                login.setVisible(true);
                 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_loginMouseClicked
 

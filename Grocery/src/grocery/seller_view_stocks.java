@@ -246,8 +246,8 @@ Connection conn= null;
 
     private void logoutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_logoutMouseClicked
         // TODO add your handling code here:
-        LOGIN login = new LOGIN();
-       login.setVisible(true);
+//        LOGIN login = new LOGIN();
+//       login.setVisible(true);
         this.dispose(); 
     }//GEN-LAST:event_logoutMouseClicked
 
@@ -257,8 +257,8 @@ Connection conn= null;
 
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
         // TODO add your handling code here:
-        Seller seller = new Seller();
-        seller.setVisible(true);
+//        Seller seller = new Seller();
+//        seller.setVisible(true);
         this.dispose(); 
     }//GEN-LAST:event_jButton3MouseClicked
 
