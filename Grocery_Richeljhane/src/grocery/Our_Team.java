@@ -51,6 +51,7 @@ public class Our_Team extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
+        jLabel16 = new javax.swing.JLabel();
         login = new javax.swing.JLabel();
         about = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -72,9 +73,7 @@ public class Our_Team extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Richel Bacayan");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\rachel.png")); // NOI18N
-
-        jLabel12.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\icon.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\rachel.png")); // NOI18N
 
         jTextArea1.setBackground(new java.awt.Color(102, 66, 41));
         jTextArea1.setColumns(20);
@@ -117,7 +116,7 @@ public class Our_Team extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel9)
                 .addGap(26, 26, 26)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 135, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(8, 8, 8)
@@ -131,10 +130,8 @@ public class Our_Team extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Ma. Elena Fuentes");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\gwapa.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\gwapa.png")); // NOI18N
         jLabel2.setText("jLabel2");
-
-        jLabel14.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\icon.png")); // NOI18N
 
         jTextArea2.setBackground(new java.awt.Color(102, 66, 41));
         jTextArea2.setColumns(20);
@@ -169,7 +166,7 @@ public class Our_Team extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel7)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 135, Short.MAX_VALUE)
                 .addGap(14, 14, 14)
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -183,10 +180,6 @@ public class Our_Team extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Albert Monceda");
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\albert.png")); // NOI18N
-
-        jLabel15.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\icon.png")); // NOI18N
-
         jTextArea3.setBackground(new java.awt.Color(102, 66, 41));
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -194,6 +187,8 @@ public class Our_Team extends javax.swing.JFrame {
         jTextArea3.setRows(5);
         jTextArea3.setText("    Try not to become a man of \n    success, but rather become \n               a man of value.");
         jScrollPane3.setViewportView(jTextArea3);
+
+        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\albert.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -203,15 +198,15 @@ public class Our_Team extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel11)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addComponent(jLabel5)
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel15))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addGap(49, 49, 49)))
+                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(34, 34, 34))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -222,11 +217,13 @@ public class Our_Team extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addComponent(jLabel3)
                 .addGap(30, 30, 30)
-                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel16))
+                .addGap(18, 18, 18)
                 .addComponent(jLabel10)
                 .addGap(20, 20, 20)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -283,7 +280,7 @@ public class Our_Team extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\logo.PNG")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\logo.PNG")); // NOI18N
 
         home.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         home.setForeground(new java.awt.Color(255, 255, 255));
@@ -317,7 +314,7 @@ public class Our_Team extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(8, Short.MAX_VALUE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -415,6 +412,7 @@ public class Our_Team extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
