@@ -79,7 +79,7 @@ public class about_us extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("making better use of any available resources. ");
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\image-removebg-preview (7).png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\image-removebg-preview (7).png")); // NOI18N
         jLabel12.setText("jLabel12");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -181,7 +181,7 @@ public class about_us extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("D:\\Document\\NetBeansProjects\\Grocereysample\\src\\images\\logo.PNG")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Pictures\\GroceryStoreManagementSystem\\src\\logo.PNG")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -237,21 +237,21 @@ public class about_us extends javax.swing.JFrame {
 
     private void homeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homeMouseClicked
         // TODO add your handling code here:
-//         Landing_Page lp= new Landing_Page();
-//                lp.setVisible(true);
+         Landing_Page lp= new Landing_Page();
+                lp.setVisible(true);
                 this.dispose();
     }//GEN-LAST:event_homeMouseClicked
 
     private void teamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_teamMouseClicked
         // TODO add your handling code here:
-//         Our_Team team= new Our_Team();
-//                team.setVisible(true);
+         Our_Team team= new Our_Team();
+                team.setVisible(true);
                 this.dispose();
     }//GEN-LAST:event_teamMouseClicked
 
     private void loginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginMouseClicked
-// LOGIN login= new LOGIN();
-//                login.setVisible(true);
+ LOGIN login= new LOGIN();
+                login.setVisible(true);
                 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_loginMouseClicked
 
