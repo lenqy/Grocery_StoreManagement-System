@@ -480,7 +480,7 @@ private void CountItems()
 
     private void view_transactionsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_view_transactionsMouseClicked
         // TODO add your handling code here:
-       LOGIN login = new LOGIN();
+        Admin_view_transaction  login = new  Admin_view_transaction ();
        login.setVisible(true);
         this.dispose(); 
     }//GEN-LAST:event_view_transactionsMouseClicked
